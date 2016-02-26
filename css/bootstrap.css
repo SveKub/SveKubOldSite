@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (https://getbootstrap.com/customize/?id=daf13b3d986ec7b75e2b)
- * Config saved to config.json and https://gist.github.com/daf13b3d986ec7b75e2b
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=258b841e6cad46e86c9e)
+ * Config saved to config.json and https://gist.github.com/258b841e6cad46e86c9e
  */
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
@@ -4965,9 +4965,9 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
   color: inherit;
   background-color: #eeeeee;
 }
@@ -4976,7 +4976,7 @@ a.badge:focus {
   color: inherit;
 }
 .jumbotron p {
-  margin-bottom: 0px;
+  margin-bottom: 15px;
   font-size: 21px;
   font-weight: 200;
 }
@@ -4994,13 +4994,13 @@ a.badge:focus {
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 48px;
+    padding-bottom: 48px;
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
   .jumbotron h1,
   .jumbotron .h1 {
