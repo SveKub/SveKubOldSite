@@ -7,19 +7,19 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">{{ site.title }}</a>
+          <a class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}">{{ site.title }}</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="dropdown">
                 <a href="#Tavlingar" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tävlingar <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li><a href="/tavlingar/kommande">Kommande</a></li>
-                    <li><a href="/tavlingar/genomforda">Genomförda tävlingar</a></li>
+                    <li><a href="{{ "/tavlingar/kommande" | prepend: site.baseurl }}">Kommande</a></li>
+                    <li><a href="{{ "/tavlingar/genomforda" | prepend: site.baseurl }}">Genomförda tävlingar</a></li>
                 </ul>  
             </li>
-            <li><a href="/losningar">Lösningar</a></li>
-            <li><a href="/Blogg">Blogg</a></li>
+            <li><a href="{{ "/losningar" | prepend: site.baseurl }}">Lösningar</a></li>
+            <li><a href="{{ "/Blogg" | prepend: site.baseurl }}">Blogg</a></li>
           </ul>
         </div>
       </div>
