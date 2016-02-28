@@ -7,11 +7,10 @@
 
 # Site settings
 title: SveKub
-email: svekub@svekub.org
+email: ---
 description: > # Svekub
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://svekub.org" # the base hostname & protocol for your site
-twitter_username: svekub
+url: "http://example.com" # the base hostname & protocol for your site
 github_username:  svekub
 
 # Build settings
