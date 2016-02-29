@@ -3,7 +3,7 @@ layout: page
 title: Lösningar
 permalink: /Losningar
 ---
-<2>Hur löser man Rubiks Kub?</h2>
+<h2>Hur löser man Rubiks Kub?</h2>
 <p>
 Rubiks Kub är ett väldigt svårt pussel att lösa utan att ta hjälp av en instruktion. Vilken metod för att lösa kuben som är bäst beror 
 på vilket sätt du vill lösa kuben. Just nu finns det ingen lösningsmetod här men det finns många andra bra metoder att lära sig som nybörjare. 
