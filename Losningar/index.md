@@ -2,6 +2,7 @@
 layout: page
 title: Lösningar
 permalink: /Losningar
+activeMenu: losningar
 ---
 <h2>Hur löser man Rubiks Kub?</h2>
 <p>

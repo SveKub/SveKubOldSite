@@ -11,15 +11,15 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="dropdown">
+            <li {% if page.activeMenu == 'tavlingar' %} class="dropdown active" {% else %} class="dropdown" {% endif %}>
                 <a href="#Tavlingar" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tävlingar <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                     <li><a href="{{ "/Tavlingar/Kommande" | prepend: site.baseurl }}">Kommande</a></li>
                     <li><a href="{{ "/Tavlingar/Genomforda" | prepend: site.baseurl }}">Genomförda tävlingar</a></li>
                 </ul>  
             </li>
-            <li><a href="{{ "/Losningar" | prepend: site.baseurl }}">Lösningar</a></li>
-            <li><a href="{{ "/Blogg" | prepend: site.baseurl }}">Blogg</a></li>
+            <li{% if page.activeMenu == 'losningar' %} class="active"{% endif %}><a href="{{ "/Losningar" | prepend: site.baseurl }}">Lösningar</a></li>
+            <li{% if page.activeMenu == 'blogg' %} class="active"{% endif %}><a href="{{ "/Blogg" | prepend: site.baseurl }}">Blogg</a></li>
           </ul>
         </div>
       </div>
