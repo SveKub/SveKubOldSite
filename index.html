@@ -6,7 +6,7 @@ activeMenu: none
 
 <div class="container">
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-6">
             <div class="page-header"><h1>Välkommen till SveKub</h1></div>
             <p>SveKub är en hemsida för att organisera, informera och öka intresset kring tävlingar i Rubiks kub. 
                 Om du kan lösa Rubiks Kub och vill tävla kan du hitta information om kommande tävlingar i Sverige. 
@@ -16,7 +16,17 @@ activeMenu: none
                 för det krävs det att tävlingen har en av WCA utsedd delegat och att <a href="https://www.worldcubeassociation.org/regulations/">WCAs regelverk</a> efterföljs. 
             </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
+            <div class="panel panel-info">
+                <div class="panel-heading">Nyheter</div>
+                <div class="panel-body">
+                    {% for post in site.posts limit: 3 %}
+                        <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+                    {%endfor%}
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
             <div class="panel panel-info">
                 <div class="panel-heading">Speedcubing</div>
                 <div class="panel-body">
@@ -39,11 +49,10 @@ activeMenu: none
                     </p>
                 </div>
             </div>
-        </div>
+        </div>  
         <div class="col-md-4">
             <h2>Tävlingar</h2>
             <div class="list-group">
-                <a class="list-group-item" target="_blank" href="https://www.worldcubeassociation.org/results/c.php?i=SwedishDecathlonChallenge2016">Swedish Decathlon Challenge 2016 i Flen 7-8 maj</a>
                 <a class="list-group-item" tarket="_blank" href="http://www.elevverket.se/contact_144.html">Skoltävling Danderyds kommun 12 Maj (Inte officiell WCA-tävling)</a>
                 <a class="list-group-item" tarket="_blank" href="http://devrex.se/go2016.html">Gothenburg Open 2016 på Universeum i Göteborg 18-19 Juni</a>
             </div>
@@ -76,7 +85,7 @@ activeMenu: none
                     <tr><td><span class="cubing-icon icon-333ft"> Rubiks Kub: Fotlösning</span></td><td>Adam Körk</td><td>45.44</td></tr>
                     <tr><td><span class="cubing-icon icon-minx"> Megaminx</span></td><td>Simon Westlund</td><td>42.28</td></tr>
                     <tr><td><span class="cubing-icon icon-pyram"> Pyraminx</span></td><td>Mattias Uvesten</td><td>2.03</td></tr>
-                    <tr><td><span class="cubing-icon icon-sq1"> Square-1</span></td><td>Daniel Wallin</td><td>10.51</td></tr>
+                    <tr><td><span class="cubing-icon icon-sq1"> Square-1</span></td><td>Daniel Wallin</td><td>10.23</td></tr>
                     <tr><td><span class="cubing-icon icon-clock"> Rubik's Clock</span></td><td>Nathaniel Berg</td><td>3.73</td></tr>
                     <tr><td><span class="cubing-icon icon-skewb"> Skewb</span></td><td>Daniel Wallin</td><td>1.93</td></tr>
                     <tr><td><span class="cubing-icon icon-666"> 6x6x6</span></td><td>Simon Westlund</td><td>2:24.33</td></tr>
@@ -92,19 +101,19 @@ activeMenu: none
                 <div class="panel-heading">Medel</div>
                 <table class="table">
                     <tr><th>Gren</th><th>Namn</th><th>Resultat</th></tr>
-                    <tr><td><span class="cubing-icon icon-333"> Rubiks Kub</span></td><td>Simon Westlund</td><td>9.22</td></tr>
+                    <tr><td><span class="cubing-icon icon-333"> Rubiks Kub</span></td><td>Daniel Wallin</td><td>8.89</td></tr>
                     <tr><td><span class="cubing-icon icon-444"> 4x4x4</span></td><td>Simon Westlund</td><td>36.27</td></tr>
                     <tr><td><span class="cubing-icon icon-555"> 5x5x5</span></td><td>Simon Westlund</td><td>1:10.83</td></tr>
-                    <tr><td><span class="cubing-icon icon-222"> 2x2x2</span></td><td>Daniel Wallin</td><td>2.34</td></tr>
+                    <tr><td><span class="cubing-icon icon-222"> 2x2x2</span></td><td>Jakob Gunnarsson</td><td>1.96</td></tr>
                     <tr><td><span class="cubing-icon icon-333bf"> Rubiks Kub: Förbundna ögon</span></td><td>Tomas Kristiansson</td><td>1:03.99</td></tr>
                     <tr><td><span class="cubing-icon icon-333oh"> Rubiks Kub: En hand</span></td><td>Joel Ulin</td><td>12.87</td></tr>
                     <tr><td><span class="cubing-icon icon-333fm"> Rubiks Kub: Minst antal drag</span></td><td>Erik Jernqvist</td><td>31.00</td></tr>
                     <tr><td><span class="cubing-icon icon-333ft"> Rubiks Kub: Fotlösning</span></td><td>Adam Körk</td><td>50.73</td></tr>
                     <tr><td><span class="cubing-icon icon-minx"> Megaminx</span></td><td>Simon Westlund</td><td>48.06</td></tr>
                     <tr><td><span class="cubing-icon icon-pyram"> Pyraminx</span></td><td>Albin Xhemajlaj</td><td>3.07</td></tr>
-                    <tr><td><span class="cubing-icon icon-sq1"> Square-1</span></td><td>Daniel Wallin</td><td>14.51</td></tr>
+                    <tr><td><span class="cubing-icon icon-sq1"> Square-1</span></td><td>Daniel Wallin</td><td>11.94</td></tr>
                     <tr><td><span class="cubing-icon icon-clock"> Rubik's Clock</span></td><td>Nathaniel Berg</td><td>6.21</td></tr>
-                    <tr><td><span class="cubing-icon icon-skewb"> Skewb</span></td><td>Daniel Wallin</td><td>3.35</td></tr>
+                    <tr><td><span class="cubing-icon icon-skewb"> Skewb</span></td><td>Daniel Wallin</td><td>3.31</td></tr>
                     <tr><td><span class="cubing-icon icon-666"> 6x6x6</span></td><td>Simon Westlund</td><td>2:32.27</td></tr>
                     <tr><td><span class="cubing-icon icon-777"> 7x7x7</span></td><td>Simon Westlund</td><td>3:48.79</td></tr>
                     <tr><td><span class="cubing-icon icon-444bf"> 4x4x4: Förbunda ögon</span></td><td>-</td><td>-</td></tr>
