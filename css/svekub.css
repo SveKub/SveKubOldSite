@@ -3,13 +3,23 @@
     padding-top: 5px;
     padding-bottom: 5px;
 }
+body{
+    margin-bottom: 40px;
+}
 
 .footer{
     text-align: center;
     background-color: #f8f8f8;
     height: 40px;
+    width: 100%;
     padding-top: 10px;
+    bottom: 0px;
+    position:fixed;
 }
 .footer a{
     color: #777;
+}
+
+.cubing-icon{
+    font-size: 1.3em;
 }

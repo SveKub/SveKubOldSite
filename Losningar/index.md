@@ -4,12 +4,12 @@ title: Lösningar
 permalink: /Losningar
 activeMenu: losningar
 ---
-<h2>Hur löser man Rubiks Kub?</h2>
-<p>
+## Hur löser man Rubiks Kub?
+
 Rubiks Kub är ett väldigt svårt pussel att lösa utan att ta hjälp av en instruktion. Vilken metod för att lösa kuben som är bäst beror 
 på vilket sätt du vill lösa kuben. Just nu finns det ingen lösningsmetod här men det finns många andra bra metoder att lära sig som nybörjare. 
 Här hittar du länkar till några av de vanligaste nybörjarmetoderna. Alla metoder som det länkas till är på svenska. 
-</p>
+
 <ul class="list-group">
   <a href="http://www.dukanfixakuben.se/html/steg_1.html" class="list-group-item" target="_blank">
     <h4 class="list-group-item-heading">Du Kan Fixa Kuben</h4>
@@ -27,6 +27,4 @@ Här hittar du länkar till några av de vanligaste nybörjarmetoderna. Alla met
     <p class="list-group-item-text">Cuboss har beskrivande texter och youtube-filmer i deras nybörjarguide. 
     De har också guider över snabbare metoder och andra pussel. De säljer också pussel av olika märken och typer i deras webbutik. </p>
   </a>
-  
-  
 </ul>
