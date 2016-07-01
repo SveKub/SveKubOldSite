@@ -3,9 +3,6 @@
     padding-top: 5px;
     padding-bottom: 5px;
 }
-body{
-    margin-bottom: 40px;
-}
 
 .footer{
     text-align: center;
@@ -14,7 +11,6 @@ body{
     width: 100%;
     padding-top: 10px;
     bottom: 0px;
-    position:fixed;
 }
 .footer a{
     color: #777;
