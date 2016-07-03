@@ -2,8 +2,8 @@
 layout: post
 title:  "Skoltävling Danderyds kommun 2016 Resultat"
 date:   2016-06-01 10:00:00 +0100
-categories: Bloggpost
-activeMenu: blogg
+categories: Nyheter
+activeMenu: nyheter
 ---
 
 12:e Maj ordnade Matthew Hasuly från Elevverket en skoltävling i Danderyds kommun. Det tävlades i tre grenar som var Rutmönstret, En sida och Hela kuben. 
