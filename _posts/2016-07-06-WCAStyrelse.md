@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Nya medlemmar i WCAs styrelse"
-date:   2016-07-06 10:00:00
+date:   2016-07-05 10:00:00
 categories: Nyheter
 activeMenu: nyheter
 ---
