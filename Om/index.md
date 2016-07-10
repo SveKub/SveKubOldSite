@@ -2,7 +2,7 @@
 layout: page
 title: Om
 activeMenu: om
-permalink: /om
+permalink: /Om
 --- 
 
 <div class="row about-row">
