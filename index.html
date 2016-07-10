@@ -3,10 +3,9 @@ layout: default
 title: SveKub
 activeMenu: none
 --- 
-
-<div class="container">
+<div class="container margin-top">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-8">
             <div class="page-header"><h1>Välkommen till SveKub</h1></div>
             <p>SveKub är en hemsida för att organisera, informera och öka intresset kring tävlingar i Rubiks kub. 
                 Om du kan lösa Rubiks Kub och vill tävla kan du hitta information om kommande tävlingar i Sverige. 
@@ -15,65 +14,64 @@ activeMenu: none
                 De flesta tävlingar är sanktionerade av <a href="http://www.worldcubeassociation.org" title="World Cube Association (WCA)">WCA</a>, 
                 för det krävs det att tävlingen har en av WCA utsedd delegat och att <a href="https://www.worldcubeassociation.org/regulations/">WCAs regelverk</a> efterföljs. 
             </p>
+            <hr>
         </div>
-        <div class="col-md-3">
-            <div class="panel panel-info">
-                <div class="panel-heading">Nyheter</div>
-                <div class="panel-body">
-                    {% for post in site.posts limit: 3 %}
-                        <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+        <div class="col-md-4">
+            <!--Panel-->
+            <div class="card news-card margin-bottom">
+                <div class="card-header primary-color white-text"><a href="Nyheter">Nyheter</a></div>
+                <div class="card-block">
+                    <ul>
+                    {% for post in site.posts limit: 4 %}
+                        <li><a class="card-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
                     {%endfor%}
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div class="col-md-3">
-            <div class="panel panel-info">
-                <div class="panel-heading">Speedcubing</div>
-                <div class="panel-body">
-                    Speedcubing (Snabblösning) är en tävlingsform som syftar till att lösa Rubiks Kub och andra liknande pussel så snabbt som möjligt. 
-                    Första världsmästerskapen arrangerades 1982 i Budapest och sedan 2003 är VM en tävling som återkommer vartannat år. 
-                    Ett svenskt mästerskap har hållits varje år sedan 2005. 
-                </div>
-            </div>
+            <!--/.Panel-->
         </div>
     </div>
     <div class="row">
         <div class="col-md-4">
-            <div class="panel panel-info">
-                <div class="panel-heading">Rubiks Kub</div>
-                <div class="panel-body">
-                    <img src="img/RubiksKub150x150.png" alt="Rubiks Kub" class="pull-left" />
-                    <p><a target="_blank" href="https://sv.wikipedia.org/wiki/Rubiks_kub">Rubiks Kub</a> är ett 3-dimensionellt pussel som uppfanns av Ernő Rubik 1974. 
-                        I början av 80-talet gick pusslet under namnet "Kuben" i Sverige och består av en kub uppdelad i 3x3 rutor. 
-                        Varje sida på kuben har en färg och målet är att vrida pusslets sidor så endast en färg var finns på kubens 6 sidor. 
-                    </p>
-                </div>
-            </div>
+            <h3>Rubiks Kub</h3>
+            <img src="img/RubiksKub150x150.png" alt="Rubiks Kub" class="pull-left" />
+            <p><a target="_blank" href="https://sv.wikipedia.org/wiki/Rubiks_kub">Rubiks Kub</a> är ett 3-dimensionellt pussel som uppfanns av Ernő Rubik 1974. 
+                I början av 80-talet gick pusslet under namnet "Kuben" i Sverige och består av en kub uppdelad i 3x3 rutor. 
+                Varje sida på kuben har en färg och målet är att vrida pusslets sidor så endast en färg var finns på kubens 6 sidor. 
+            </p>
         </div>  
-        <div class="col-md-4">
-            <h2>Tävlingar</h2>
+        <div class="col-md-4 margin-bottom">
+            <h2 class="margin-bottom">Tävlingar</h2>
             <div class="list-group">
                 <a class="list-group-item" href="https://www.worldcubeassociation.org/competitions/AFSwedishCubeOpen2016">ÅF Swedish Cube Open 15-16 oktober</a>
             </div>
         </div>
         <div class="col-md-4">
-            <h2>Länkar</h2>
-            <div class="list-group">
-                <a class="list-group-item" target="_blank" href="http://www.worldcubeassociation.org">World Cube Association (WCA)</a>
-                <a class="list-group-item" target="_blank" href="http://www.speedsolving.com">Speedsolving.com (Engelskspråkigt forum)</a>
-                <a class="list-group-item" target="_blank" href="https://www.facebook.com/groups/226126407404640/">Speedcubing Sweden på Facebook</a>
+            <div class="card news-card">
+                <div class="card-header primary-color white-text"><span class="cubing-icon icon-333"></span> Speedcubing</div>
+                <div class="card-block">
+                    <p>
+                        Speedcubing (Snabblösning) är en tävlingsform som syftar till att lösa Rubiks Kub och andra liknande pussel så snabbt som möjligt. 
+                        Första världsmästerskapen arrangerades 1982 i Budapest och sedan 2003 är VM en tävling som återkommer vartannat år. 
+                        Ett svenskt mästerskap har hållits varje år sedan 2005. 
+                    </p>
+                </div>
             </div>
         </div>
     </div>
-    {% include topnews.html %}
+
+    <div class="margin-top-bottom">
+        {% include topnews.html %}
+    </div>
+
     <div class="page-header">
-        <h2>Svenska rekord</h2>
+        <h2 class="margin-bottom">Svenska rekord</h2>
     </div>
     <div class="row">
         <div class="col-md-6">
             <div class="panel panel-primary">
-                <div class="panel-heading">Singel</div>
-                <table class="table">
+                <div class="card-header primary-color white-text">Singel</div>
+                <table class="table records">
                     <tr><th>Gren</th><th>Namn</th><th>Resultat</th></tr>
                     <tr><td><span class="cubing-icon icon-333"> </span><span> Rubiks Kub</span></td><td>Mattias Uvesten</td><td>7.18</td></tr>
                     <tr><td><span class="cubing-icon icon-444"> </span><span> 4x4x4</span></td><td>Simon Westlund</td><td>31.52</td></tr>
@@ -98,8 +96,8 @@ activeMenu: none
         </div>
         <div class="col-md-6">
             <div class="panel panel-primary">
-                <div class="panel-heading">Medel</div>
-                <table class="table">
+                <div class="card-header primary-color white-text">Medel</div>
+                <table class="table records">
                     <tr><th>Gren</th><th>Namn</th><th>Resultat</th></tr>
                     <tr><td><span class="cubing-icon icon-333"> </span><span> Rubiks Kub</span></td><td>Daniel Wallin</td><td>8.89</td></tr>
                     <tr><td><span class="cubing-icon icon-444"> </span><span> 4x4x4</span></td><td>Simon Westlund</td><td>36.27</td></tr>

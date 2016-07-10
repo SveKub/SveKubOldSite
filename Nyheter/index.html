@@ -1,14 +1,23 @@
 ---
 layout: default
 title: SveKub
-activeMenu: blogg
+activeMenu: nyheter
 --- 
 <div class="container">
-    {% for post in site.posts %} 
-    <article> 
-        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1> 
- 		<p>{{ post.date | date_to_string }}</p> 
- 		<p>{{ post.content }}</p> 
+	<h1 class="margin-bottom col-sm-12">Nyheter</h1>
+    {% for post in paginator.posts %}
+    <article class="col-md-6 news-article"> 
+    	<div class="card card-block">
+	        <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3> 
+	 		<p>{{ post.date | date_to_string }}</p> 
+	 		<p>{{ post.excerpt }}</p> 
+ 		</div>
+ 		<div class="read-more"><a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-primary">Läs mer</a></div>
     </article> 
  	{% endfor %} 
+	
+	<div class="col-sm-12">
+		<hr>
+ 		{% include pagination.html %}
+ 	</div>
 </div> 

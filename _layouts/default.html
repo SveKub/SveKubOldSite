@@ -2,10 +2,14 @@
 <html>
   {% include head.html %}
   <body role="document">
-    {% include top.html %}  
-    {% include menu.html %}
-    {{ content }}
-    {% include footer.html %}
-    {% include jsbottominclude.html %}
+  
+	  	<div class="wrapper">
+			{% include top.html %}  
+			{% include menu.html %}
+			{{ content }}
+		</div>
+
+			{% include footer.html %}
+			{% include jsbottominclude.html %}
   </body>
 </html>
