@@ -1,16 +1,122 @@
+body {
+    padding-bottom: 80px; /* Footer height */
+    margin-bottom: 25px; /* Spacing between content and footer */
+}
 
 .jumbotron{
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
+/* Navbar styles */
+.navbar {
+    margin-bottom: 25px;
+}
+.navbar-brand {
+    float: none;
+    position: relative;
+    top: 4px;
+}
+@media(min-width: 545px) {
+    .navbar-brand {
+        float: left;
+        top: 0;
+        border-right: 1px solid #015DAC;
+        padding-right: 1rem;
+
+    }
+}
+
+/* Site-wide wrapper */
+.wrapper {
+    background: #FFF;
+    position: relative;
+    display: block;
+    z-index: 2;
+}
+
+/* Cubing icons centered */
+h1 .cubing-icon,
+h2 .cubing-icon,
+h3 .cubing-icon,
+h4 .cubing-icon,
+table .cubing-icon,
+.card-header .cubing-icon {
+    position: relative;
+    padding-right: 4px;
+    top: 4px;
+}
+
+/* Custom font sizing on about page */
+.about-row .fa {
+    font-size: 64pt;
+    margin: 20px;
+}
+
+/* Specific card styles on index */
+.card-header a {
+    color: #FFF;
+}
+.news-card ul li {
+    margin-bottom: 10px;
+}
+
+/* Records table styles */
+.table.records {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border-right: solid 1px #eceeef;
+    border-left: solid 1px #eceeef;
+    border-bottom: solid 1px #eceeef;
+}
+
+.table.records td, .table th {
+    padding: .45rem;
+}
+
+/* News in feed */
+.news-article {
+    margin-bottom: 30px;
+}
+.news-article .card {
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+.news-article .card:before {
+    display: block;
+    content: " ";
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to bottom, rgba(237,237,237,0) 25%, rgba(246,246,246,0.47) 47%, rgba(255,255,255,1) 100%);
+    pointer-events: none;
+}
+.news-article img {
+    max-width: 100%;
+}
+.news-article .read-more {
+    position: absolute;
+    left: 50%; bottom: -15px;
+    transform: translateX(-50%);
+}
+
+/* Single post news */
+.news-single img {
+    max-width: 100%;
+}
+
+/* Footer styles */
 .footer{
     text-align: center;
     background-color: #f8f8f8;
-    height: 40px;
+    height: 80px;
+    line-height: 80px;
     width: 100%;
-    padding-top: 10px;
     bottom: 0px;
+    z-index: 1;
 }
 .footer a{
     color: #777;
@@ -18,4 +124,47 @@
 
 .cubing-icon{
     font-size: 1.3em;
+}
+
+/* Pagination */
+.pagination-nav {
+    text-align: center;
+}
+.page-number {
+    position: relative;
+    float: left;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.5;
+    color: #0275d8;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    cursor: default;
+}
+
+/* Utils */
+.margin-top {
+    margin-top: 35px; /* Varför 35px? Det kan man undra... */
+}
+.margin-bottom {
+    margin-bottom: 35px;
+}
+.margin-top-bottom {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+
+.center-block {
+    float: none; /* "Fix" bootstrap default "center" */
 }

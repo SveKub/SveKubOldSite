@@ -1,28 +1,34 @@
-    <nav class="navbar navbar-default navbar-static-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}">{{ site.title }}</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li{% if page.activeMenu == 'nyheter' %} class="active"{% endif %}><a href="{{ "/Nyheter" | prepend: site.baseurl }}">Nyheter</a></li>
-            <li {% if page.activeMenu == 'tavlingar' %} class="dropdown active" {% else %} class="dropdown" {% endif %}>
-                <a href="#Tavlingar" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tävlingar <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    <li><a href="{{ "/Tavlingar/Kommande" | prepend: site.baseurl }}">Kommande</a></li>
-                    <li><a href="{{ "/Tavlingar/Genomforda" | prepend: site.baseurl }}">Genomförda tävlingar</a></li>
-                </ul>  
-            </li>
-            <li{% if page.activeMenu == 'losningar' %} class="active"{% endif %}><a href="{{ "/Losningar" | prepend: site.baseurl }}">Lösningar</a></li>
-            <li{% if page.activeMenu == 'om' %} class="active"{% endif %}><a href="{{ "/Om" | prepend: site.baseurl }}">Om</a></li>
-            
-          </ul>
-        </div>
-      </div>
-    </nav>
+<!--Navbar-->
+<nav class="navbar navbar-dark bg-primary">
+  <div class="container">
+    <!--Navbar Brand-->
+      <a class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}">{{ site.title }}</a>
+
+    <!-- Collapse button-->
+    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx2">
+        <i class="fa fa-bars"></i>
+    </button>
+
+    <!--Collapse content-->
+    <div class="collapse navbar-toggleable-xs" id="collapseEx2">
+        <!--Links-->
+        <ul class="nav navbar-nav">
+          <li{% if page.activeMenu == 'nyheter' %} class="nav-item active" {% endif %} class="nav-item"><a class="nav-link" href="{{ "/Nyheter" | prepend: site.baseurl }}">Nyheter</a></li>
+          <li {% if page.activeMenu == 'tavlingar' %} class="dropdown active nav-item" {% else %} class="nav-item dropdown" {% endif %}>
+              <a href="#Tavlingar" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tävlingar <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                  <li class="dropdown-item"><a href="{{ "/Tavlingar/Kommande" | prepend: site.baseurl }}">Kommande</a></li>
+                  <li class="dropdown-item"><a href="{{ "/Tavlingar/Genomforda" | prepend: site.baseurl }}">Genomförda tävlingar</a></li>
+              </ul>  
+          </li>
+          <li{% if page.activeMenu == 'losningar' %} class="nav-item active"{% endif %} class="nav-item"><a class="nav-link" href="{{ "/Losningar" | prepend: site.baseurl }}">Lösningar</a></li>
+          <li{% if page.activeMenu == 'lankar' %} class="nav-item active"{% endif %} class="nav-item"><a class="nav-link" href="{{ "/Lankar" | prepend: site.baseurl }}">Länkar</a></li>
+          <li{% if page.activeMenu == 'om' %} class="active nav-item"{% endif %} class="nav-item"><a class="nav-link" href="{{ "/Om" | prepend: site.baseurl }}">Om</a></li>
+          
+        </ul>
+
+    </div>
+    <!--/.Collapse content-->
+  </div>
+</nav>
+<!--/.Navbar-->
