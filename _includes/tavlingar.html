@@ -1,0 +1,3 @@
+{% for tavling in site.data.tavlingar %}
+    <a class="list-group-item" href="{{ tavling.url }}">{{ tavling.namn }} {{ tavling.datum }}</a>  
+{% endfor %}
