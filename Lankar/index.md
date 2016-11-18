@@ -18,7 +18,7 @@ Här finns det länkar till kubrelaterade webbsidor!
 <div class="margin-top-bottom" id="software">
 	<h2 class="margin-bottom">Program</h2>
 	<ul class="list-group">
-	    <li class="list-group-item"><a href="https://sourceforge.net/projects/jnetcube/">JNetCube</a> – Populärt program för tidtagning. Kräver att Java är installerat.</li>
+	    <li class="list-group-item"><a href="https://www.worldcubeassociation.org/regulations/scrambles/">TNoodle WCA</a> –&nbsp;Officiellt program av WCA för att ta fram blandningar till tävlingar. Svekub rekomenderar alla som ska ordna en tävling vare sig den är officiell eller inte att använda senaste versionen av TNoodle för att ta fram blandningar till tävlingen. </li>
 	    <li class="list-group-item"><a href="http://kociemba.org/cube.htm">Cube Explorer</a> –&nbsp;Ett mycket bra program som kan hitta optimala algoritmer, ta fram fina mönster och mycket annat.</li>
 	    <li class="list-group-item"><a href="http://software.rubikscube.info/JACube/">ACube </a>–&nbsp;Ett mycket bra program för att generera algoritmer för Rubik’s kub. Snabbt, men saknar grafiskt användargränssnitt.</li>
 	    <li class="list-group-item"><a class="category" href="http://www.jaapsch.net/scramble_cube.htm">Cube Scrambler</a>&nbsp;–&nbsp;Jaap Scherpuis har gjort flera blandningsprogram som används vid officiella tävlingar.</li>
@@ -36,8 +36,7 @@ Här finns det länkar till kubrelaterade webbsidor!
 	    <li class="list-group-item"><a href="https://www.v-cubes.com/">V-cubes</a> –&nbsp;V-cubes är ett nytt märke som säljer kuber i storleken 5×5, 6×6 samt 7×7. Deär först i världen med att kunna producera kuber större än 5×5. Deras 5×5 anses av en överväldigande majoritet vara den bästa 5×5 på marknaden.</li>
 		<li class="list-group-item"><a href="https://eu.rubiks.com/">Rubiks.com</a> –&nbsp;Säljer en massa trevliga pussel. Det skeppas dock från U.S.A. och frakten är ganska hög. Varor riskerar även att få adderat 25% moms i den svenska tullen.</li>
 		<li class="list-group-item"><a href="http://cube4you.com/">Cube4You </a>–&nbsp;Mycket stort utbud av kuber, som passar för speedcubing, men även andra pussel.</li>
-		<li class="list-group-item"><a href="http://www.mefferts.com/">Mefferts</a> –&nbsp;Har diverse intressanta pussel. De 3x3x3 som säljs där lämpar sig dock inte för snabblösning. De skickar fraktfritt över hela världen. Övriga pussel och andra storlekar på kuber är dock utmärkta.</li>
-		<li class="list-group-item"><a href="http://www.cubesmith.com/">Cubesmith</a>&nbsp;–&nbsp;Bra pålitlig internetshop med stort utbud av klisterlappar och reservdelar.</li>
+		<li class="list-group-item"><a href="http://www.mefferts.com/">Mefferts</a> –&nbsp;Har diverse intressanta pussel. De 3x3x3 som säljs där lämpar sig dock inte för snabblösning. De skickar fraktfritt över hela världen. Övriga pussel och andra storlekar på kuber är dock utmärkta.</li>	
 		<li class="list-group-item"><a href="http://www.alega.se/">Alega Skolmateriel AB</a> –&nbsp;Svensk distributör av kuber som även säljer kuber online. Om du vill bli återfösäljare av kuber i Sverige så är det Alega du skall kontakta.</li>
 		<li class="list-group-item"><a href="http://www.teknikmagasinet.se/">Teknikmagasinet </a>–&nbsp;Har Rubik’s 2×2-5×5 och keychain samt V-cube 7×7 och siamese 2×2.</li>
 		<li class="list-group-item"><a href="http://www.ebay.com/">eBay </a>–&nbsp;Auktionssida med många Rubiks-liknande pussel till salu. Den främsta källan för att hitta pussel som inte längre är till salu.</li>
