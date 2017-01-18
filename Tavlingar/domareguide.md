@@ -61,7 +61,7 @@ Om inga tilläggstider ska läggas på skriver du ner tiden på scorekortet (skr
 Om du har några frågor eller är osäker ska du alltid fråga huvuddomare eller WCA-delegaten. De flesta läsningar kommer gå felfritt men det kan uppstå fall som inte täckts in av denna sammanfattning. 
 
 # Tilläggstid
-Tilläggstid på 2 sekunder ska läggas till på lösningstiden om pusslet är ett drag från att vara löst. Gränserna för pusslet för att vara ett drag från löst är följande: 
+Tilläggstid på 2 sekunder ska läggas till på lösningstiden om pusslet är ett drag från att vara löst. Gränserna för pusslet beskrivs i detalj i [Regel 10](https://www.worldcubeassociation.org/regulations/#article-10-solved-state). De olika pusslens gränsvärden är: 
 
 1. NxNxN-pussel: max 45 grader
 2. Megaminx: max 36 grader
