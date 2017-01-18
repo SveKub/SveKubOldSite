@@ -5,6 +5,9 @@ permalink: /Tavlingar/Genomforda
 activeMenu: tavlingar
 ---
 
+## 2017
+<a class="list-group-item" target="_blank" href="https://www.worldcubeassociation.org/competitions/FlenNewYearsBlind2017">Flen New Year's Blind 2017 Flen 24 Januari</a>
+
 ## 2016
 <a class="list-group-item" target="_blank" href="https://www.worldcubeassociation.org/competitions/NykopingCubeDay2016">Nyköping Cube Day 2016  Nyköping 20 februari</a>
 <a class="list-group-item" target="_blank" href="https://www.worldcubeassociation.org/competitions/SwedishDecathlonChallenge2016">Swedish Decathlon Challenge 2016 Flen 7-8 maj</a>
