@@ -22,7 +22,13 @@
                   <li class="dropdown-item"><a href="{{ "/Tavlingar/Domarguide" | prepend: site.baseurl }}">Domarguide</a></li>
               </ul>  
           </li>
-          <li{% if page.activeMenu == 'losningar' %} class="nav-item active"{% endif %} class="nav-item"><a class="nav-link" href="{{ "/Losningar" | prepend: site.baseurl }}">Lösningar</a></li>
+          <li {% if page.activeMenu == 'tavlingar' %} class="dropdown active nav-item" {% else %} class="nav-item dropdown" {% endif %}>
+            <a href="#Losningar" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lösningar <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item"><a href="{{ "/Losningar/Lankar" | prepend: site.baseurl }}">Länkar</a></li>
+              <li class="dropdown-item"><a href="{{ "/Losningar/Notation" | prepend: site.baseurl }}">Notation</a></li>
+            </ul>
+          </li>
           <li{% if page.activeMenu == 'lankar' %} class="nav-item active"{% endif %} class="nav-item"><a class="nav-link" href="{{ "/Lankar" | prepend: site.baseurl }}">Länkar</a></li>
           <li{% if page.activeMenu == 'om' %} class="active nav-item"{% endif %} class="nav-item"><a class="nav-link" href="{{ "/Om" | prepend: site.baseurl }}">Om</a></li>
           
