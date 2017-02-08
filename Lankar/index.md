@@ -42,6 +42,7 @@ Här finns det länkar till kubrelaterade webbsidor!
 		<li class="list-group-item"><a href="http://www.ebay.com/">eBay </a>–&nbsp;Auktionssida med många Rubiks-liknande pussel till salu. Den främsta källan för att hitta pussel som inte längre är till salu.</li>
 		<li class="list-group-item"><a href="http://www.tradera.com/">Tradera </a>–&nbsp;Svensk auktionssida där du kan hitta gamla Rubiks-produkter. Oftast väldigt få intressanta saker och vet du vad du vill ha rekommenderas eBay istället.</li>
 		<li class="list-group-item"><a href="http://eu.speedcube.se/">Speedcube.se</a>&nbsp;–&nbsp;Svensk webbutik som drivs av Kimy Hagström.</li>
+		<li class="list-group-item"><a href="http://www.cuboss.se/">Cuboss.se</a>&nbsp;–&nbsp;Svensk webbutik som säljer speedcubes och olika typer av Rubik's kub-liknande pussel och tillbehör.</li>
 	</ul>
 </div>
 
