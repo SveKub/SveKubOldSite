@@ -19,7 +19,7 @@ De vanligaste dragen är de 18 ovan och alla algoritmer kan beskrivas med dem.
 ## Kubrotationer
 
 
-| ![](/img/notation/x.png) | ![](/img/notation/Xc.png) | ![](/img/notation/x2.png) |
+| ![](/img/notation/x.png) | ![](/img/notation/xc.png) | ![](/img/notation/x2.png) |
 | x = Kuben som R     | x' = Kuben som R'    | x2 = Kuben som R2    |
 | ![](/img/notation/x.png) | ![](/img/notation/yc.png) | ![](/img/notation/y2.png) |
 | y = Kuben som U     | y' = Kuben som U'    | y2 = Kuben som U2    |
