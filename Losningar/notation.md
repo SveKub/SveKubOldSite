@@ -19,11 +19,11 @@ De vanligaste dragen är de 18 ovan och alla algoritmer kan beskrivas med dem.
 ## Kubrotationer
 
 
-| ![](/img/notation/X.png) | ![](/img/notation/Xc.png) | ![](/img/notation/x2.png) |
+| ![](/img/notation/x.png) | ![](/img/notation/Xc.png) | ![](/img/notation/x2.png) |
 | x = Kuben som R     | x' = Kuben som R'    | x2 = Kuben som R2    |
-| ![](/img/notation/Y.png) | ![](/img/notation/Yc.png) | ![](/img/notation/Y2.png) |
+| ![](/img/notation/x.png) | ![](/img/notation/yc.png) | ![](/img/notation/y2.png) |
 | y = Kuben som U     | y' = Kuben som U'    | y2 = Kuben som U2    |
-| ![](/img/notation/Z.png) | ![](/img/notation/Zc.png) | ![](/img/notation/Z2.png) |
+| ![](/img/notation/z.png) | ![](/img/notation/zc.png) | ![](/img/notation/z2.png) |
 | z = kuben som F     | z' = Kuben som F'    | z2 = Kuben som F2    |
 
 Kubrotationer används för att vrida på kuben och för att det ska vara lättare och gå snabbare att utföra algoritmer. Efter en del träning går det snabbare att rotera kuben y och göra ett R-drag och avsluta med y' istället för att göra ett enkelt B-drag. 
