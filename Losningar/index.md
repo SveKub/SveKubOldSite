@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lösningar
-permalink: /Losningar
+permalink: /Losningar/Lankar
 activeMenu: losningar
 ---
 ## Hur löser man Rubiks Kub?
