@@ -9,6 +9,7 @@ activeMenu: tavlingar
 ## 2017
 <div class="list-group">
   <a class="list-group-item" target="_blank" href="https://www.worldcubeassociation.org/competitions/FlenNewYearsBlind2017">Flen New Year's Blind 2017 Flen 24 Januari</a>
+  <a class="list-group-item" target="_blank" href="https://www.worldcubeassociation.org/competitions/SSL1Jonkoping2017">SSL 1 Jönköping 4-5 Mars</a>
 </div>
 
 ## 2016
