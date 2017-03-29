@@ -21,7 +21,7 @@ De vanligaste dragen är de 18 ovan och alla algoritmer kan beskrivas med dem.
 
 | ![](/img/notation/x.png) | ![](/img/notation/xc.png) | ![](/img/notation/x2.png) |
 | x = Kuben som R     | x' = Kuben som R'    | x2 = Kuben som R2    |
-| ![](/img/notation/x.png) | ![](/img/notation/yc.png) | ![](/img/notation/y2.png) |
+| ![](/img/notation/y.png) | ![](/img/notation/yc.png) | ![](/img/notation/y2.png) |
 | y = Kuben som U     | y' = Kuben som U'    | y2 = Kuben som U2    |
 | ![](/img/notation/z.png) | ![](/img/notation/zc.png) | ![](/img/notation/z2.png) |
 | z = kuben som F     | z' = Kuben som F'    | z2 = Kuben som F2    |
