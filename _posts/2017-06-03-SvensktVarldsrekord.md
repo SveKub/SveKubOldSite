@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ett svenskt världrekord"
-date:   2017-06-30 12:00:00 +0100
+date:   2017-06-03 12:00:00 +0100
 categories: Nyheter
 activeMenu: nyheter
 ---
@@ -14,4 +14,4 @@ Nya världsrekordhållaren i Square-1 Helmer Ewert
 
 Det tidigare världsrekordet innehölls av [Tommy Szeliga](https://www.worldcubeassociation.org/persons/2012SZEL01) från USA sedan Juni 2016. 
 
-Helmers lycka blev dock aningen kortvarig när [Nathan Dwyer](https://www.worldcubeassociation.org/persons/2011DWYE02) från USA slogs Helmers tid på en tävling i USA helgen efter med tiden 5.88 sekunder. Helmer fick ha världsrekordet i 7 dagar och vi säger givetvis grattis till Nathan och hans nya rekord men ett extra stort grattis till Helmer som nu mera kan titulera sig som fd världsrekordhållare. Att vara rankad som 2:a i världen är inte så tokigt det heller. 
+Helmers lycka blev dock aningen kortvarig när [Nathan Dwyer](https://www.worldcubeassociation.org/persons/2011DWYE02) från USA slog Helmers tid på en tävling i USA helgen efter med tiden 5.88 sekunder. Helmer fick ha världsrekordet i 7 dagar och vi säger givetvis grattis till Nathan och hans nya rekord men ett extra stort grattis till Helmer som nu mera kan titulera sig som fd världsrekordhållare. Att vara rankad som 2:a i världen är inte så tokigt det heller. 
