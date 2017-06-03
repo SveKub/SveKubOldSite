@@ -11,6 +11,8 @@ activeMenu: tavlingar
   <a class="list-group-item" target="_blank" href="https://www.worldcubeassociation.org/competitions/FlenNewYearsBlind2017">Flen New Year's Blind 2017 Flen 24 Januari</a>
   <a class="list-group-item" target="_blank" href="https://www.worldcubeassociation.org/competitions/SSL1Jonkoping2017">SSL 1 Jönköping 4-5 Mars</a>
   <a class="list-group-item" target="_blank" href="https://www.worldcubeassociation.org/competitions/SSL2Stockholm2017">SSL 2 Stockholm 8-9 April</a>
+  <a class="list-group-item" target="_blank" href="https://www.worldcubeassociation.org/competitions/SwedishDecathlonChallenge2017">Swedish Decathlon Challenge 2017 Flen 29-30 April</a>
+  <a class="list-group-item" target="_blank" href="https://www.worldcubeassociation.org/competitions/SwedishChampionship2017">Swedish Championship 2017 Stockholm 26-28 Maj</a>
 </div>
 
 ## 2016
