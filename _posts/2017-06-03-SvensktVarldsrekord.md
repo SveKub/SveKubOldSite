@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ett svenskt världrekord"
+title:  "Ett svenskt världsrekord"
 date:   2017-06-03 12:00:00 +0100
 categories: Nyheter
 activeMenu: nyheter
