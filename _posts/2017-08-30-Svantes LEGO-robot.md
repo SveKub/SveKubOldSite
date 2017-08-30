@@ -6,7 +6,7 @@ categories: Nyheter
 activeMenu: nyheter
 ---
 
-![Svante Spännar och LEGO-roboten](/img/nyhetsbilder/svanterobot.jpg)
+![Svante Spännar och LEGO-roboten](/img/nyhetsbilder/svanterobot.JPG)
 
 Svante Spännar från Falun har uppmärksammats av [Dalarnas Tidning](http://www.dt.se/dalarna/falun/se-sjuarige-svantes-legorobot-som-loser-rubiks-kub-det-svara-var-att-programmera-den) för sin robot byggd av LEGO som löser Rubiks Kub. En film över hur roboten fungerar finns i artikeln med en kort text om själva LEGO-bygget och hur Svante tyckte det svåraste var att programmera roboten rätt. 
 
