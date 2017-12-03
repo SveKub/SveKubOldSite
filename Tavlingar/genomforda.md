@@ -16,6 +16,8 @@ activeMenu: tavlingar
   <a class="list-group-item" target="_blank" href="https://www.worldcubeassociation.org/competitions/TwistandShoutSummer2017">Twist and Shout Summer 2017 Flen 29-30 Juli</a>
   <a class="list-group-item" target="_blank" href="https://www.worldcubeassociation.org/competitions/AndersLarssonMemorial2017">Anders Larsson Memorial 2017 Stockholm 17 September</a>
   <a class="list-group-item" target="_blank" href="https://www.worldcubeassociation.org/competitions/SSL3Kungsbacka2017">SSL3 Kungsbacka 30 Sep - 1 Okt 2017</a>
+  <a class="list-group-item" target="_blank" href="https://www.worldcubeassociation.org/competitions/SSLFMora2017">SSL4 Mora 11 - 12 November 2017</a>
+  <a class="list-group-item" target="_blank" href="https://www.worldcubeassociation.org/competitions/SSLFinalBoras2017">SSL Final Borås 2 - 3 December 2017</a>
 </div>
 
 ## 2016
