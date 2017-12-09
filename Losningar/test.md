@@ -71,7 +71,7 @@ activeMenu: Losningar
         <div class="col-md-8">
             Om kantbiten ska sättas ner till höger gör vi algoritmen för höger:  U R U' R' - U' F' U F
         </div>
-        <div class=col-md-4>
+        <div class="col-md-4">
             <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=2&colorscheme=ywgbor&initmove=F U R U' R' F' U' L' U L U F U' F' U' Z'&move=U R U' R' U' F' U F" frameborder="0" height="100%" width="100%"></iframe>
         </div>
     </div>
