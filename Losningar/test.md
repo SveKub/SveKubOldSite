@@ -24,7 +24,7 @@ activeMenu: Losningar
             Börja med att leta efter en vit hörnbit i det undre lagret. När du hittar en titta du vilka två andra färger samma hörnbit har. De andra två färgerna ska matchas med två andra centerbitar. Vrid det undre lagret tills hörnbiten sitter mellan de två andra färgernas centerbitar. 
         </div>
         <div class="col-md-4">
-          <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=wygbor&initmove=L D L' B D B' R D R' F D' F D2&move=D R' D' R D" frameborder="0" height="100%" width="100%"></iframe>
+          <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=wygbor&initmove=L D L' B D B' R D R' F D F D2&move=D R' D' R D" frameborder="0" height="100%" width="100%"></iframe>
         </div>
     </div>
 
