@@ -1,3 +1,10 @@
+---
+layout: page
+title: Testar AnimCubeJS
+permalink: /Losningar/Test
+activeMenu: Losningar
+---
+
 <div class="container margin-top">
     <div class="row">
         <div class="col-md-4">
