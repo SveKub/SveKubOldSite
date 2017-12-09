@@ -35,7 +35,7 @@ activeMenu: Losningar
             <p>För att hörnbiten ska hamna på rätt plats och vara vänd åt rätt håll kan du behöva göra algoritmen fem gånger. </p>
         </div>
         <div class="col-md-4">
-          <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=wygbor&initmove=L D L' B D B' R D R' F D F' D' R' D' R D&move=R' D' R D R' D' R D R' D' R D R' D' R D R' D' R D" frameborder="0" height="100%" width="100%"></iframe>
+          <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=wygbor&initmove=L D L' B D B' R D R' F D F' D' R' D' R D D' R' D' R D&move=R' D' R D R' D' R D R' D' R D R' D' R D R' D' R D" frameborder="0" height="100%" width="100%"></iframe>
         </div>
     </div>
 
