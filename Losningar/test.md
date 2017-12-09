@@ -52,15 +52,15 @@ activeMenu: Losningar
         </div>
     </div>
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-8">
             Vrid först det övre lagret tills en kantbit matchar med en centrumbit i andra lagret och rotera kuben så kantbiten finns på framsidan. 
         </div>
         <div class="col-md-4">
-            <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=2&colorscheme=ywgbor&initmove=F U R U' R' F' U R U' R' U' F' U F&move=U Z" frameborder="0" height="100%" width="100%"></iframe>
+            
         </div>
     </div>
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-8">
             Om kantbiten ska sättas ner till vänster gör vi algoritmen för vänster. U' L' U L - U F U' F'
         </div>
         <div class=col-md-4>
@@ -68,7 +68,7 @@ activeMenu: Losningar
         </div>
     </div>
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-8">
             Om kantbiten ska sättas ner till höger gör vi algoritmen för höger:  U R U' R' - U' F' U F
         </div>
         <div class=col-md-4>
