@@ -40,7 +40,7 @@ activeMenu: Losningar
         </div>
     </div>
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
             <h2>Andra lagret</h2>
             <p>När första lagret är löst ska vi lösa andra lagret utan att förstöra något i det första lagret. Börja med att vänd kuben upp och ner så den vita lösta sidan är på kubens undersida. </p>
             <p>
@@ -52,10 +52,10 @@ activeMenu: Losningar
         </div>
     </div>
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
             Vrid först det övre lagret tills en kantbit matchar med en centrumbit i andra lagret och rotera kuben så kantbiten finns på framsidan. 
         </div>
-        <div>
+        <div class="col-md-4">
             <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=2&colorscheme=ywgbor&initmove=F U R U' R' F' U R U' R' U' F' U F&move=U Z" frameborder="0" height="100%" width="100%"></iframe>
         </div>
     </div>
