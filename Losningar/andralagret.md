@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lösning
+title: Andra lagret
 permalink: /Losningar/Losning/AndraLagret
 activeMenu: Losningar
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Lösning
-permalink: /Losningar/Losning
+title: Lösning till Rubiks Kub
+permalink: /Losningar/Losning/PrintLosning
 activeMenu: Losningar
 ---
 <div class="container margin-top">

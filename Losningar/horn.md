@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lösning
+title: Sista lagrets hörnbitar
 permalink: /Losningar/Losning/HornSistaLagret
 activeMenu: Losningar
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lösning
+title: Sista lagrets kantbitar
 permalink: /Losningar/Losning/KanterSistaLagret
 activeMenu: Losningar
 ---
