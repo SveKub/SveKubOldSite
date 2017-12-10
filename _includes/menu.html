@@ -25,9 +25,13 @@
           <li {% if page.activeMenu == 'tavlingar' %} class="dropdown active nav-item" {% else %} class="nav-item dropdown" {% endif %}>
             <a href="#Losningar" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lösningar <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li class="dropdown-item"><a href="{{ "/Losningar/losning" | prepend: site.baseurl }}">Lösning</a></li>
+                <li class="dropdown-item"><a href="{{ "/Losningar/Notation" | prepend: site.baseurl }}">Notation</a></li>
+                <li class="dropdown-item"><a href="{{ "/Losningar/ForstaLagret" | prepend: site.baseurl }}">Första lagret</a></li>
+                <li class="dropdown-item"><a href="{{ "/Losningar/AndraLagret" | prepend: site.baseurl }}">Andra lagret</a></li>
+                <li class="dropdown-item"><a href="{{ "/Losningar/KanterSistaLagret" | prepend: site.baseurl }}">Kanter i sista lagret</a></li>
+                <li class="dropdown-item"><a href="{{ "/Losningar/HornSistaLagret" | prepend: site.baseurl }}">Hörn i sista lagret</a></li>
               <li class="dropdown-item"><a href="{{ "/Losningar/Lankar" | prepend: site.baseurl }}">Länkar</a></li>
-              <li class="dropdown-item"><a href="{{ "/Losningar/Notation" | prepend: site.baseurl }}">Notation</a></li>
+              
             </ul>
           </li>
           <li{% if page.activeMenu == 'lankar' %} class="nav-item active"{% endif %} class="nav-item"><a class="nav-link" href="{{ "/Lankar" | prepend: site.baseurl }}">Länkar</a></li>
