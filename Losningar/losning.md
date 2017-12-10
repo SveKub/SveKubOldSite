@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lösning
-permalink: /Losningar/Test
+permalink: /Losningar/Losning
 activeMenu: Losningar
 ---
 {% include losning/test.md %}
