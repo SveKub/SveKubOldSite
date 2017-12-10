@@ -94,13 +94,13 @@ activeMenu: Losningar
     </div>
     <div class="row">
         <div class="col-md-4">
-            <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=ywgbor&initmove=L2 U' F' B L2 F' B U' L2 R' F R' B2 R F' R' B2 R2 F R U R' U' F' U2 F R U R' U' F' F R U R' U' F'&move=F R U R' U' F' U2 F R U R' U' F' F R U R' U' F'" frameborder="0" height="100%" width="100%"></iframe>
+            <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=ywgbor&initmove=L2 U' F' B L2 F B' U' L2 R' F R' B2 R F' R' B2 R2 F R U R' U' F' U2 F R U R' U' F' F R U R' U' F'&move=F R U R' U' F' U2 F R U R' U' F' F R U R' U' F'" frameborder="0" height="100%" width="100%"></iframe>
         </div>
         <div class="col-md-4">
-            <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=ywgbor&initmove=L2 U' F' B L2 F' B U' L2 R' F R' B2 R F' R' B2 R2 F R U R' U' F'&move=F R U R' U' F' F R U R' U' F'" frameborder="0" height="100%" width="100%"></iframe>
+            <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=ywgbor&initmove=L2 U' F' B L2 F B' U' L2 R' F R' B2 R F' R' B2 R2 F R U R' U' F'&move=F R U R' U' F' F R U R' U' F'" frameborder="0" height="100%" width="100%"></iframe>
         </div>
         <div class="col-md-4">
-            <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=ywgbor&initmove=L2 U' F' B L2 F' B U' L2 R' F R' B2 R F' R' B2 R2 F R U R' U' F' U2 F R U R' U' F'&move=U F R U R' U' F'" frameborder="0" height="100%" width="100%"></iframe>
+            <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=ywgbor&initmove=L2 U' F' B L2 F B' U' L2 R' F R' B2 R F' R' B2 R2 F R U R' U' F' U2 F R U R' U' F'&move=U F R U R' U' F'" frameborder="0" height="100%" width="100%"></iframe>
         </div>
     </div>
 </div>
