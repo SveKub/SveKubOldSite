@@ -2,7 +2,7 @@
 layout: page
 title: Lösning till Rubiks Kub
 permalink: /Losningar/Losning/PrintLosning
-activeMenu: Losningar
+activeMenu: losningar
 ---
 <div class="container margin-top">
 {% include losning/forstalagret.md %}
