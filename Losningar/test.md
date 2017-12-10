@@ -153,7 +153,7 @@ activeMenu: Losningar
         <h2>Sista steget</h2>
             <p>I sista steget ska vi vända hörnbitarna så de sitter rättvända. Det gör vi med den första algoritmen du lärde dig. </p>
             <p>R' D' R D</p>
-            Vrid på kuben så det hörn du vill vända på sitter till närmast dig till höger. Utför algoritmen tills hörnet hamnar med den gula sidan uppåt. Nu kan det se ut som att mycket annat på kuben blivit förstört men så är det inte. Så länge som du fortsätter att utföra algoritmen rätt kommer det rätta till sig när du vänt på alla hörn. När det första hörnet är vänt rätt vrider vi det översta lagret så ett annat hörn som är felvänt hamnar närmast dig till höger. Sedan utför vi algoritmen igen tills det hörnet vänds rätt. Fortsätt så med alla hörn som är felvridna. </p>
+            <p>Vrid på kuben så det hörn du vill vända på sitter till närmast dig till höger. Utför algoritmen tills hörnet hamnar med den gula sidan uppåt. Nu kan det se ut som att mycket annat på kuben blivit förstört men så är det inte. Så länge som du fortsätter att utföra algoritmen rätt kommer det rätta till sig när du vänt på alla hörn. När det första hörnet är vänt rätt vrider vi det översta lagret så ett annat hörn som är felvänt hamnar närmast dig till höger. Sedan utför vi algoritmen igen tills det hörnet vänds rätt. Fortsätt så med alla hörn som är felvridna. </p>
         </div>
         <div class="col-md-4">
             <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=ywgbor&initmove=R' D' R D2 F D' F' U F D F' D2 R' D R U'&move=R' D' R D R' D' R D R' D' R D R' D' R D U R' D' R D R' D' R D U'" frameborder="0" height="100%" width="100%"></iframe>
