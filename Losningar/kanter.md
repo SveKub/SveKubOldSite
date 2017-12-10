@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lösning
-permalink: /Losningar/Losning/KanterSistalagret
+permalink: /Losningar/Losning/KanterSistaLagret
 activeMenu: Losningar
 ---
 <div class="container margin-top">

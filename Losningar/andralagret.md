@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lösning
-permalink: /Losningar/Losning/Andralagret
+permalink: /Losningar/Losning/AndraLagret
 activeMenu: Losningar
 ---
 <div class="container margin-top">
