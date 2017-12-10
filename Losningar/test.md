@@ -110,7 +110,7 @@ activeMenu: Losningar
             <p>R U' R' U' - R U2 R'</p>
         </div>
         <div class="col-md-4">
-            <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=ylllll&move=R U' R' U' R U2 R'" frameborder="0" height="100%" width="100%"></iframe>
+            <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=ylllll&move=R U R' U R U2 R'" frameborder="0" height="100%" width="100%"></iframe>
         </div>
     </div>
     <div class="row">
@@ -118,7 +118,7 @@ activeMenu: Losningar
             <p>Vrid det övre lagret så två kantbitar matchar med centrumbitarna i andra lagret. Om de två bitarna sitter bredvid varandra vrider vi på hela kuben så de två bitar som matchar pekar uppåt och till höger. Sedan utför vi algoritmen och avslutar med att vrida det över lagret tills alla fyra kantbitar matchar med centrumbitarna i andra lagret. </p>
         </div>
         <div class="col-md-4">
-            <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=ywgbor&initmove=L2 U' F' B L2 F B' U' L2 R' F' L F R F' L' F&move=U z R U R' U R U2 R' U&move=" frameborder="0" height="100%" width="100%"></iframe>
+            <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=ywgbor&initmove=L2 U' F' B L2 F B' U' L2 R' F' L F R F' L' F&move=U z R U R' U R U2 R' U" frameborder="0" height="100%" width="100%"></iframe>
         </div>
     </div>
     <div class="row">
