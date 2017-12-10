@@ -75,5 +75,31 @@ activeMenu: Losningar
             <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=ywgbor&initmove=F U R U' R' F' U' L' U L U F U' F' U' Z'&move=U R U' R' U' F' U F" frameborder="0" height="100%" width="100%"></iframe>
         </div>
     </div>
-
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Övre korset</h2>
+            <p>Med två lösta lager är det dags att göra kors nummer två. Till det använder vi en ytterligare en algoritm, den här är sex drag lång och ser ut så här: </p>
+            <p>F R U – R' U' F'</p>
+            <p>De fyra gula kantbitarna ska bilda ett kors, har man tur är det redan ett kors när man kommer hit och då är det bara att gå vidare till nästa steg. Är det gula korset inte löst finns det tre olika lägen och för att lösa dem gör man algoritmen en, två eller tre gånger. </p>
+        </div>
+        <div class="col-md-4">
+            <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=ylllll&move=F R U R' U' F'" frameborder="0" height="100%" width="100%"></iframe>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p>För att algoritmen ska skapa ett kors ska man utföra den med två gula kantbitar mitt emot varandra på varsin sida om centrumbiten. Om ingen gul kantbit förutom centrumbiten finns på ovansidan görs algoritmen först en gång. Då kommer två kantbitar bredvid varandra att vändas rätt. Vrid det över lagret så de gula kantbitarna pekar till vänster och uppåt och utför algoritmen en gång till. Nu kommer det tredje fallet med två gula kantbitar på varsin sida om centrumbiten. Vrid det övre lagret så två gula bitarna pekar till vänster och höger och utför algoritmen en sista gång. </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=ywgbor&initmove=R' F R' B2 R F' R' B2 R2 F R U R' U' F' U2 F R U R' U' F' F R U R' U' F'&move=F R U R' U' F' U2 F R U R' U' F' F R U R' U' F'" frameborder="0" height="100%" width="100%"></iframe>
+        </div>
+        <div class="col-md-4">
+            <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=ywgbor&initmove=R' F R' B2 R F' R' B2 R2 F R U R' U' F'&move=F R U R' U' F' F R U R' U' F'" frameborder="0" height="100%" width="100%"></iframe>
+        </div>
+        <div class="col-md-4">
+            <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=ywgbor&initmove=R' F R' B2 R F' R' B2 R2 F R U R' U' F' U2 F R U R' U' F'&move=U F R U R' U' F'" frameborder="0" height="100%" width="100%"></iframe>
+        </div>
+    </div>
 </div>
