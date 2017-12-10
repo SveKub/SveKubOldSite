@@ -4,4 +4,4 @@ title: Lösning
 permalink: /Losningar/Test
 activeMenu: Losningar
 ---
-{% include test.md %}
+{% include losning/test.md %}
