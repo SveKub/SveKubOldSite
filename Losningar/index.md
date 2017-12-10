@@ -2,7 +2,7 @@
 layout: page
 title: Nybörjarlösning till Rubiks Kub
 permalink: /Losningar/Losning
-activeMenu: Losningar
+activeMenu: losningar
 ---
 ## Hur löser man Rubiks Kub?
 Rubiks Kub är ett väldigt svårt pussel att lösa utan att ta hjälp av en instruktion. Vilken metod för att lösa kuben som är bäst beror på vilket sätt du vill lösa kuben. Här finns en lösningsmetod som är anpassad för nybörjare. Den är enkel att lära sig och algoritmerna som används är korta och relativt lätta att komma ihåg. Till texten finns det en virtuell kub som visar hur dragen går till, det går att spela upp hela dragserien eller att stega ett drag åt gången. Det går också att snurra på kuben med muspekaren så man kan titta på kubens alla 6 sidor. 
