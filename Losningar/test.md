@@ -103,4 +103,30 @@ activeMenu: Losningar
             <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=ywgbor&initmove=L2 U' F' B L2 F B' U' L2 R' F R' B2 R F' R' B2 R2 F R U R' U' F' U2 F R U R' U' F'&move=U F R U R' U' F'" frameborder="0" height="100%" width="100%"></iframe>
         </div>
     </div>
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Fixa korset</h2>
+            <p>När det övre korset är löst måste de fyra kanterna matchas med de fyra centrarna i andra lagret. Det görs med att utföra en algoritm en eller två gånger. Algoritmen som används kallas Sune och ser ut så här</p>
+            <p>R U' R' U' - R U2 R'</p>
+        </div>
+        <div class="col-md-4">
+            <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=ylllll&move=R U' R' U' R U2 R'" frameborder="0" height="100%" width="100%"></iframe>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <p>Vrid det övre lagret så två kantbitar matchar med centrumbitarna i andra lagret. Om de två bitarna sitter bredvid varandra vrider vi på hela kuben så de två bitar som matchar pekar uppåt och till höger. Sedan utför vi algoritmen och avslutar med att vrida det över lagret tills alla fyra kantbitar matchar med centrumbitarna i andra lagret. </p>
+        </div>
+        <div class="col-md-4">
+            <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=ywgbor&initmove=L2 U' F' B L2 F B' U' L2 R' F' L F R F' L' F&move=U z R U R' U R U2 R' U&move=" frameborder="0" height="100%" width="100%"></iframe>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <p>Om de två kantbitaran som matchar centrumbitarna ligger på motsatt sida måste algoritmen utföras två gånger. Vrid kuben så det två bitarna pekar mot dig och ifrån dig och utför algoritmen. Efter det kommer du kunna vrida det övre lagret så två kantbitar bredvid varandra matchar med centumbitarna i andra lagret och du kan utföra algoritmen en gång till som i första fallet. </p>
+        </div>
+        <div class="col-md-4">
+            <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=ywgbor&initmove=L2 U' F' B L2 F B' U' L2 U' L2 U' F' B L2 F B' U' L2  R' F' L F R F' L' F z U&move=U z2 R U R' U R U2 R' z' R U R' U R U2 R' U" frameborder="0" height="100%" width="100%"></iframe>
+        </div>
+    </div>
 </div>
