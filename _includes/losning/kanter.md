@@ -30,7 +30,7 @@
         <div class="col-md-8">
             <h2>Fixa korset</h2>
             <p>När det övre korset är löst måste de fyra kanterna matchas med de fyra centrarna i andra lagret. Det görs med att utföra en algoritm en eller två gånger. Algoritmen som används kallas Sune och ser ut så här</p>
-            <p>R U' R' U' - R U2 R'</p>
+            <p>R U R' U - R U2 R'</p>
         </div>
         <div class="col-md-4">
             <iframe src="/AnimCubeJS/cube.html?config=AnimCube.cfg&edit=0&buttonbar=1&colorscheme=ylllll&move=R U R' U R U2 R'" frameborder="0" height="100%" width="100%"></iframe>
