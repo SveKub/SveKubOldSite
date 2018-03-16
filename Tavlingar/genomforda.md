@@ -6,6 +6,11 @@ activeMenu: tavlingar
 ---
 <hr>
 
+## 2018
+<div class="list-group">
+  <a class="list-group-item" target="_blank" href="https://www.worldcubeassociation.org/competitions/DontPeek2018">Don't Peek 2018 3 Februari</a>
+</div>
+
 ## 2017
 <div class="list-group">
   <a class="list-group-item" target="_blank" href="https://www.worldcubeassociation.org/competitions/FlenNewYearsBlind2017">Flen New Year's Blind 2017 Flen 24 Januari</a>
