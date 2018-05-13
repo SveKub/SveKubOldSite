@@ -4,6 +4,9 @@ title: Genomförda tävlingar
 permalink: /Tavlingar/Genomforda
 activeMenu: tavlingar
 ---
+<div class="list-group">
+  {% include genomfordaTavlingar.html %}
+</div>
 <hr>
 
 ## 2018
