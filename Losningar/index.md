@@ -15,4 +15,4 @@ Om det är något som du inte förstår eller tycker är otydligt tas alla fråg
 
 Lösningen hos [Cuboss.se](http://www.cuboss.se/lar-dig-losa-rubiks-kub/) är den samma som beskrivs här och de har också förtydligande youtube-klipp för varje steg. 
 
-Lösningen finns även på en sammansatt sida som lämpar sig bättre till att skriva ut som minneslapp [här](/Losningar/Losning/printlosning)
+Lösningen finns även på en sammansatt sida som lämpar sig bättre till att skriva ut som minneslapp [här](/Losningar/Losning/PrintLosning)
