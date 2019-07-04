@@ -12,7 +12,7 @@ description: > # SveKub
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.svekub.org" # the base hostname & protocol for your site
 github_username:  SveKub
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 paginate: 6
 paginate_path: "/Nyheter/sida-:num/"
 
