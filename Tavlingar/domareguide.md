@@ -107,9 +107,9 @@ Lägg även i scorekortet i bägaren och returnera. (Håll upp bägaren så att 
 
 ---
 
-# Blind och "Fewest Moves"
+# Blindlösning och "Fewest Moves"
 
-De flesta som är nya tävlande och domare deltar inte i blind-grenar (lösning med täckta ögon), eller grenen "fewest moves". De tas upp här för den som är intresserad.
+De flesta som är nya tävlande och domare deltar inte i blind-grenar (lösning med förbundna ögon), eller grenen "fewest moves". De tas upp här för den som är intresserad.
 
 ---
 
@@ -127,10 +127,10 @@ För "fewest moves":
 Endast en domare (som också kan vara tävlande, men då måste avsluta först) behövs för alla deltagare.
 
 1. De tävlande tar med sig upp till tre pussel och sätter sig vid sina platser där domaren ska se till att det finns pennor, och eventuellt stoppur (egna pennor och stoppur får användas).
-2. Domaren delar ut kladdpapper och lappar upp och ned där blandningingen står och lösningen kan skrivas ned.
+2. Domaren delar ut kladdpapper och lappar upp och ned där blandningen står och lösningen kan skrivas ned.
 3. Domare startar tidtagningen för alla tävlande, och säger samtidigt "GO". De tävlande kan vända på lappen och börja.
 4. Då det har gått 55 minuter säger domaren "5 MINUTES REMAINING", och "STOP" vid 60 minuter. (För tävlande så kan det vara bra att använda eget stoppur för att hålla reda på tiden och skriva ned sin lösning i god tid.)
 5. Senast vid 60 minuter måste alla tävlande lämna in ett papper till domaren där lösningen ska vara nedskriven. Även namn eller WCA-id måste anges.
 
-[Regel 12a](https://www.worldcubeassociation.org/regulations/#12a) anger notationen som ska anävndas för lösningen, och antalet drag räknas i "Outer Block Turn Metric".
+[Regel 12a](https://www.worldcubeassociation.org/regulations/#12a) anger notationen som ska användas för lösningen, och antalet drag räknas i "Outer Block Turn Metric".
 
